@@ -1,0 +1,24 @@
+.tb5 {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 20px;
+	width: 230px;
+}
+
+h1 {
+  color: blue;
+}
+
+
+.ddCountry {
+	border:2px solid #456879;
+	border-radius:25px;
+	height: 30px;
+}
+
+ul li {
+    font-size: 14px;
+    list-style-type: none;
+    display: inline;
+    border-left: 25px;
+}

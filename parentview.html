@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <link href="parentstyle.css" type="text/css" rel="stylesheet" />
+<script src="angular.min.js"></script>
+    <script src="countryapp.js"></script>
+   
+    <body ng-app="countryApp" >
+        <div>
+            <h1>Select country to view it's captial</h1>
+        </div>
+        <div ng-controller="countryController">
+            <ul>
+            <li>
+                  <select class="ddCountry"
+            ng-options="countryItem as countryItem.country for countryItem in countryWithCapitalList "
+            ng-model="countryItem"> </select></li>
+                <li>
+            <input type="text" ng-value="countryItem.capital" class="tb5">
+                </li>
+            </ul>
+            
+      
+        </div>
+    </body>
+</html>
